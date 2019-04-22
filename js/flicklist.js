@@ -52,7 +52,8 @@ function render() {
   model.browseItems.forEach(function(movie) {
 		// TODO 3
 		// insert a list item into the <ul> in the browse section
-		
+		thelist = document.getElementById("browseList")
+		model.browseItems
 		// TODO 4
 		// the list item should include a button that says "Add to Watchlist"
 		
